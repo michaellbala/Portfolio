@@ -1,0 +1,4 @@
+SIMPLE TOP 25 ANIME / MANHWA / MANGA LIST
+Created Using :
+- Vanilla HTML + CSS
+- JIKAN API
