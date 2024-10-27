@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MWList</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-blue-500 text-white p-4 text-center flex flex-wrap  justify-center items-center">
+        <h1 class="text-3xl font-bold hover:bg-blue-600" onclick="window.location.href='index.html'">Top 25 Airing Anime</h1>
+    </header>
+    <main class="p-4">
+        <div class="flex justify-center mb-4">
+            <!-- <button onclick="fetchManhwa()" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700">Whats Popular ?</button> -->
+        </div>
+        <div id="manhwa-container" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            <!-- Manhwa cards will be inserted here -->
+        </div>
+    </main>
+    <script src="anime.js"></script>
+</body>
+</html>
